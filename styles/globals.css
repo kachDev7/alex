@@ -42,7 +42,7 @@ a {
 }
 
 .card1{
-  
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   width: 90vw;
 }
 
@@ -99,4 +99,10 @@ a {
 .product{
   border-bottom: 1px solid rgb(66, 58, 58, 0.5);
   padding-bottom: 10px;
+}
+.contact{
+  text-decoration: none;
+  outline: none;
+  border: none;
+  
 }

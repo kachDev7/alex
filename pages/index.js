@@ -58,6 +58,10 @@ export default function Home() {
             <div className="contact br-15 p-2 bg-warning"><i class="bi bi-telephone h6 mx-1"></i>08136214603</div>
             <div className="contact  br-15 p-2 bg-warning "><i class="bi bi-whatsapp h6 mx-1"></i>09168610189</div>
           </div>
+          {/* <div className="contacts text-dark br-s1-20 boda py-3 bg-dark d-flex">
+            <Link href=""><div className="contact text-dark br-15 p-2 bg-warning"><i class="bi bi-telephone h6 mx-1"></i>08136214603</div></Link>
+            <Link href=""><div className="contact text-dark br-15 p-2 bg-warning "><i class="bi bi-whatsapp h6 mx-1"></i>09168610189</div></Link>
+          </div> */}
         </div>
       </main>
 
