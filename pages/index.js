@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Alex Exchange</title>
         <meta name="description" content="The best virtual asset exchange platform" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/h1.png" />
       </Head>
 
       <main className="body">
