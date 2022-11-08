@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -54,14 +55,14 @@ export default function Home() {
             </div>
           </div>
           {/* contacts */}
-          <div className="contacts text-dark br-s1-20 boda py-3 bg-dark d-flex">
+          {/* <div className="contacts text-dark br-s1-20 boda py-3 bg-dark d-flex">
             <div className="contact br-15 p-2 bg-warning"><i class="bi bi-telephone h6 mx-1"></i>08136214603</div>
             <div className="contact  br-15 p-2 bg-warning "><i class="bi bi-whatsapp h6 mx-1"></i>09168610189</div>
-          </div>
-          {/* <div className="contacts text-dark br-s1-20 boda py-3 bg-dark d-flex">
-            <Link href=""><div className="contact text-dark br-15 p-2 bg-warning"><i class="bi bi-telephone h6 mx-1"></i>08136214603</div></Link>
-            <Link href=""><div className="contact text-dark br-15 p-2 bg-warning "><i class="bi bi-whatsapp h6 mx-1"></i>09168610189</div></Link>
           </div> */}
+          <div className="contacts text-dark br-s1-20 boda py-3 bg-dark d-flex">
+            <Link href="tel:08136214603"><div className="contact text-dark br-15 p-2 bg-warning"><i class="bi bi-telephone h6 mx-1"></i>08136214603</div></Link>
+            <Link href="https://wa.me/2349168610189"><div className="contact text-dark br-15 p-2 bg-warning "><i class="bi bi-whatsapp h6 mx-1"></i>09168610189</div></Link>
+          </div>
         </div>
       </main>
 
