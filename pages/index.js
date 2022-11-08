@@ -30,7 +30,7 @@ export default function Home() {
           {/* products */}
           <div className="products bg-body">
           <div className="text-center p-1 deal py-3">
-                <span className="bg-warning text-dark br-20 px-5 py-1">We deal with...</span>
+                <span className="bg-warning text-dark br-20 px-5 py-1">We Offer Best Rates  for...</span>
 
             </div>
             <div className="d-flex jac column py-3 px-5">
