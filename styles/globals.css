@@ -24,3 +24,72 @@ a {
     background: black;
   }
 }
+.body{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.boda1{
+  border: 2px solid black;
+}
+.boda2{
+  border: 2px solid brown;
+}
+.boda3{
+  border: 2px solid red;
+}
+
+.card1{
+  
+  width: 90vw;
+}
+
+.br-5{
+  border-radius: 5px;
+}
+.br-10{
+  border-radius: 10px;
+}
+.br-15{
+  border-radius: 15px;
+}
+.br-20{
+  border-radius: 20px;
+}
+.br-s-20{
+  border-radius: 20px 20px 0 0;
+}
+.br-s1-20{
+  border-radius: 0 0 20px 20px;
+}
+.br-30{
+  border-radius: 30px;
+}
+.column{
+  flex-direction: column;
+}
+
+.pg{
+  background-color: #332D2D;
+}
+.header{
+  display: grid;
+  place-items: center;
+}
+
+.contacts{
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.head{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.jac{
+  justify-content: center;
+  align-items: center;
+}
