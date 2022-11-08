@@ -20,7 +20,7 @@ export default function Home() {
                 
                 <Image src="/h1.png" height={50} width={60} />
                
-                <div className="text-light py-1">
+                <div className="text-light py-2">
                   <h1><span className="text-warning">ALEX</span> <span className="text-warning">EXCHANGE</span> </h1>
                 </div>
               </div>
@@ -29,7 +29,7 @@ export default function Home() {
           
           {/* products */}
           <div className="products bg-body">
-          <div className="text-center p-1 deal py-2">
+          <div className="text-center p-1 deal py-3">
                 <span className="bg-warning text-dark br-20 px-5 py-1">We deal with...</span>
 
             </div>
