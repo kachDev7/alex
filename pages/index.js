@@ -39,16 +39,16 @@ export default function Home() {
                 <Image src="/a1.png" height={50} width={150} />
               </div>
               <div className="product">
-                <Image src="/p.png" height={50} width={150} />
+                <Image src="/p.png" height={50} width={120} />
               </div>
               <div className="product">
-                <Image src="/c.png" height={50} width={150} />
+                <Image src="/c.png" height={50} width={120} />
               </div>
               <div className="product">
                 <Image src="/b2.png" height={50} width={150} />
               </div>
-              <div className="product">
-                <Image src="/z2.png" height={50} width={150} />
+              <div className="py-1">
+                <Image src="/z2.png" height={40} width={150} />
               </div>
 
             </div>
