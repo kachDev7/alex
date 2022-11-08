@@ -20,7 +20,7 @@ export default function Home() {
                 
                 <Image src="/h1.png" height={50} width={60} />
                
-                <div className="text-light">
+                <div className="text-light py-1">
                   <h1><span className="text-warning">ALEX</span> <span className="text-warning">EXCHANGE</span> </h1>
                 </div>
               </div>
