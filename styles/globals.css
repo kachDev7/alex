@@ -78,6 +78,9 @@ a {
   display: grid;
   place-items: center;
 }
+.deal{
+  font-family: 'Lobster', cursive;
+}
 
 .contacts{
   justify-content: space-around;

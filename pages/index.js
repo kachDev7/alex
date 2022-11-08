@@ -26,9 +26,15 @@ export default function Home() {
               </div>
             </div>
           </div>
+          
           {/* products */}
           <div className="products bg-body">
-            <div className="d-flex column py-3 px-5">
+          <div className="text-center p-1 deal py-2">
+                <span className="bg-warning text-dark br-20 px-4 py-1">We deal with...</span>
+
+            </div>
+            <div className="d-flex jac column py-3 px-5">
+
               <div className="product">
                 <Image src="/a1.png" height={50} width={150} />
               </div>
