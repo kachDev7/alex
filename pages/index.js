@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="body boda2">
+      <main className="body">
         <div className="card1 boda1 br-20 bg-dark">
           {/* header */}
           <div className="header bg-dark br-s-20">
